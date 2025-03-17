@@ -25,7 +25,7 @@ function App() {
 		},
 	]
 	return (
-		<>
+		<div className='app'>
 			{data.map(item => (
 				<Card
 					category={item.category}
@@ -49,7 +49,7 @@ function App() {
 				category='frontend'
 				image='https://www.sammi.ac/_next/image?url=https%3A%2F%2Fqk9g5hsrut.ufs.sh%2Ff%2Fxu965PmyvPo0Dlnm5upQTl9a4CLgOmnEFkfdiNbwx068Xc3o&w=3840&q=75&dpl=dpl_2aRpdJ4YsfDj97kNGcewSVSQRmua'
 			/> */}
-		</>
+		</div>
 	)
 }
 
